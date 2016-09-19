@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  color: grey;
+  font-size: 0px; }
+
+img {
+  width: 100%;
+  display: block; }
+
+div p {
+  font-size: 15px; }
+
+div p strong {
+  font-size: 15px; }
+
+#app-container {
+  max-width: 960px;
+  align-items: center; }
+
+h1 {
+  font-size: 100px; }
+
+.logo-container img {
+  width: 200px; }
+
+@media screen and (min-width: 768px) {
+  .images-in-grid {
+    display: inline-block;
+    width: 29%; }
+
+  .nav-reg {
+    display: inline-block;
+    vertical-align: top; }
+    .nav-reg .top-text {
+      float: left;
+      position: inherit; }
+    .nav-reg .menu-button {
+      padding-left: 200px;
+      margin-left: auto; } }
+@media screen and (min-width: 1024px) {
+  .images-in-grid {
+    display: inline-block;
+    width: 24%; }
+
+  .nav-reg {
+    display: inline-block; }
+    .nav-reg .top-text {
+      float: left;
+      position: relative; } }
+@media screen and (max-width: 768px) {
+  .logo-container img {
+    display: block;
+    margin: auto; }
+
+  .nav-mobile {
+    display: block;
+    text-align: center; }
+
+  .images-in-grid {
+    display: inline-block;
+    width: 49%; } }
+
+/*# sourceMappingURL=styles.css.map */
