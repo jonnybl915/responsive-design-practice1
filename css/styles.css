@@ -24,20 +24,37 @@ h1 {
 .logo-container img {
   width: 200px; }
 
+.footer {
+  font-size: 12px; }
+
+#search-text-input {
+  border-top: thin solid  #e5e5e5;
+  border-right: thin solid #e5e5e5;
+  border-bottom: 0;
+  border-left: thin solid  #e5e5e5;
+  box-shadow: 0px 1px 1px 1px #e5e5e5;
+  float: left;
+  height: 17px;
+  margin: .8em 0 0 .5em;
+  outline: 0;
+  padding: .4em 0 .4em .6em;
+  width: 183px; }
+
 @media screen and (min-width: 768px) {
   .images-in-grid {
     display: inline-block;
     width: 29%; }
 
   .nav-reg {
-    display: inline-block;
-    vertical-align: top; }
+    display: inline-block; }
     .nav-reg .top-text {
-      float: left;
-      position: inherit; }
+      float: left; }
     .nav-reg .menu-button {
-      padding-left: 200px;
-      margin-left: auto; } }
+      float: left; }
+    .nav-reg .logo-container {
+      padding-right: 550px; }
+    .nav-reg .thick-text {
+      padding-right: 10px; } }
 @media screen and (min-width: 1024px) {
   .images-in-grid {
     display: inline-block;
@@ -45,9 +62,16 @@ h1 {
 
   .nav-reg {
     display: inline-block; }
-    .nav-reg .top-text {
-      float: left;
-      position: relative; } }
+
+  .top-text {
+    float: left; }
+
+  .logo-container {
+    padding-right: 670px;
+    float: left; }
+
+  .thick-text {
+    padding-right: 10px; } }
 @media screen and (max-width: 768px) {
   .logo-container img {
     display: block;
